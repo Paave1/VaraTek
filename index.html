@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>VaraTek — Construction Company</title>
+    <meta name="description" content="Modern turnkey construction: design, build, engineering and refurbishment. VaraTek — quality, deadlines, transparency." />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;600;700;800&display=swap" rel="stylesheet" />
+
+    <link rel="icon" type="image/svg+xml" href="./assets/logo.svg" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav">
+        <a class="brand" href="#home" aria-label="VaraTek">
+          <img src="./assets/logo.svg" alt="VaraTek logo" class="brand-logo" />
+          <span class="brand-text">VaraTek</span>
+        </a>
+        <nav class="nav-links" aria-label="Main navigation">
+          <a href="#services" data-i18n="nav.services">Services</a>
+          <a href="#projects" data-i18n="nav.projects">Projects</a>
+          <a href="#process" data-i18n="nav.process">Process</a>
+          <a href="#about" data-i18n="nav.about">About</a>
+          <a href="#contact" class="btn btn--ghost" data-i18n="nav.contact">Contact</a>
+          <a href="#estimate" class="btn btn--primary" data-i18n="nav.estimate">Get a quote</a>
+        </nav>
+        <div class="lang-switch" role="group" aria-label="Language">
+          <button data-lang="en" class="is-active">EN</button>
+          <button data-lang="fi">FI</button>
+        </div>
+        <button class="menu-toggle" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+    <main id="home">
+      <section class="hero">
+        <div class="container hero__grid">
+          <div class="hero__text">
+            <h1 data-i18n="hero.title">
+              We build modern turnkey homes
+              <span class="accent-underline"></span>
+            </h1>
+            <p data-i18n="hero.subtitle">
+              Design, construction, and MEP. Transparent budgets, fixed schedules, warranty up to 5 years.
+            </p>
+            <div class="hero__cta">
+              <a href="#estimate" class="btn btn--primary" data-i18n="hero.cta.estimate">Get estimate</a>
+              <a href="#projects" class="btn btn--ghost" data-i18n="hero.cta.portfolio">Portfolio</a>
+            </div>
+            <ul class="hero__stats">
+              <li><strong data-count="10" data-suffix="+">10+</strong><span data-i18n="hero.stats.years">years in business</span></li>
+              <li><strong data-count="120" data-suffix="+">120+</strong><span data-i18n="hero.stats.objects">completed projects</span></li>
+              <li><strong data-count="4.9">4.9</strong><span data-i18n="hero.stats.rating">client rating</span></li>
+            </ul>
+          </div>
+          <div class="hero__visual">
+            <div class="logo-orbit">
+              <img src="./assets/logo.svg" alt="VaraTek logo" />
+            </div>
+            <div class="hero__badge" data-i18n="hero.badge">Contemporary architecture</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="section">
+        <div class="container">
+          <h2 class="section__title reveal" data-i18n="section.services.title">Services</h2>
+          <div class="cards three reveal">
+            <article class="card">
+              <div class="card__icon" aria-hidden="true">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 11l9-7 9 7"/><path d="M9 22V12h6v10"/><path d="M3 11v10h18V11"/></svg>
+              </div>
+              <h3 data-i18n="services.one.title">Turnkey houses</h3>
+              <p data-i18n="services.one.desc">Architecture, structure, finishing. Fixed budget and schedule.</p>
+              <ul class="list">
+                <li data-i18n="services.one.li1">Timber, masonry, monolithic</li>
+                <li data-i18n="services.one.li2">Energy‑efficient solutions</li>
+                <li data-i18n="services.one.li3">Author supervision</li>
+              </ul>
+            </article>
+            <article class="card">
+              <div class="card__icon" aria-hidden="true">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 16V8l-9-5-9 5v8l9 5 9-5z"/><path d="M3.3 7.3L12 12l8.7-4.7"/></svg>
+              </div>
+              <h3 data-i18n="services.two.title">Design</h3>
+              <p data-i18n="services.two.desc">AR, KR, MEP, BIM. Accurate specs and visualization.</p>
+              <ul class="list">
+                <li data-i18n="services.two.li1">3D/VR presentations</li>
+                <li data-i18n="services.two.li2">Permits and expert review</li>
+                <li data-i18n="services.two.li3">Itemized budgets</li>
+              </ul>
+            </article>
+            <article class="card">
+              <div class="card__icon" aria-hidden="true">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16v6H4z"/><path d="M2 14h20v6H2z"/><path d="M7 4v6M17 4v6M12 14v6"/></svg>
+              </div>
+              <h3 data-i18n="services.three.title">Engineering systems</h3>
+              <p data-i18n="services.three.desc">Heating, water, electricity, ventilation. Smart home on request.</p>
+              <ul class="list">
+                <li data-i18n="services.three.li1">Turnkey with commissioning</li>
+                <li data-i18n="services.three.li2">Service and warranty</li>
+                <li data-i18n="services.three.li3">Energy audit</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section section--alt">
+        <div class="container">
+          <h2 class="section__title reveal" data-i18n="section.projects.title">Projects</h2>
+          <div class="projects-grid reveal">
+            <a class="project" href="#" aria-label="Проект 1">
+              <div class="project__img" style="--photo: url('./assets/photos/modern-house.svg')" data-i18n-dataset-title="projects.1" data-title="High‑tech cottage"></div>
+            </a>
+            <a class="project" href="#" aria-label="Проект 2">
+              <div class="project__img" style="--photo: url('./assets/photos/minimal-house.svg')" data-i18n-dataset-title="projects.2" data-title="Minimalist house"></div>
+            </a>
+            <a class="project" href="#" aria-label="Проект 3">
+              <div class="project__img" style="--photo: url('./assets/photos/townhouse.svg')" data-i18n-dataset-title="projects.3" data-title="Townhouse"></div>
+            </a>
+            <a class="project" href="#" aria-label="Проект 4">
+              <div class="project__img" style="--photo: url('./assets/photos/villa-renovation.svg')" data-i18n-dataset-title="projects.4" data-title="Villa renovation"></div>
+            </a>
+            <a class="project" href="#" aria-label="Проект 5">
+              <div class="project__img" style="--photo: url('./assets/photos/office-space.svg')" data-i18n-dataset-title="projects.5" data-title="Office space"></div>
+            </a>
+            <a class="project" href="#" aria-label="Проект 6">
+              <div class="project__img" style="--photo: url('./assets/photos/country-house.svg')" data-i18n-dataset-title="projects.6" data-title="Country house"></div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section id="process" class="section">
+        <div class="container">
+          <h2 class="section__title reveal" data-i18n="section.process.title">How we work</h2>
+          <ol class="steps reveal">
+            <li>
+              <span class="step__num">01</span>
+              <span data-i18n="process.1">Brief and site visit. We identify goals and constraints.</span>
+            </li>
+            <li>
+              <span class="step__num">02</span>
+              <span data-i18n="process.2">Concept and budget. Transparent pricing and timeline with schedule.</span>
+            </li>
+            <li>
+              <span class="step__num">03</span>
+              <span data-i18n="process.3">Design and approvals. Documentation and visualization.</span>
+            </li>
+            <li>
+              <span class="step__num">04</span>
+              <span data-i18n="process.4">Construction and author supervision. Weekly reports and photo control.</span>
+            </li>
+            <li>
+              <span class="step__num">05</span>
+              <span data-i18n="process.5">Handover and warranty. As‑built docs and service.</span>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section id="about" class="section section--alt">
+        <div class="container about reveal">
+          <div class="about__text">
+            <h2 data-i18n="about.title">VaraTek — precise engineering and architecture</h2>
+            <p data-i18n="about.text">
+              We merge minimalist architecture with reliable engineering. Contract‑based, digital QA, and BIM.
+            </p>
+            <ul class="badges">
+              <li data-i18n="badges.1">Up to 5‑year warranty</li>
+              <li data-i18n="badges.2">BIM modeling</li>
+              <li data-i18n="badges.3">Fixed deadlines</li>
+              <li data-i18n="badges.4">Author supervision</li>
+            </ul>
+          </div>
+          <div class="about__media">
+            <div class="about__logo-frame">
+              <img src="./assets/logo.svg" alt="VaraTek logo" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="estimate" class="section">
+        <div class="container reveal">
+          <div class="cta">
+            <h2 data-i18n="estimate.title">Need a quote? We’ll send an estimate within 24 hours</h2>
+            <a href="#contact" class="btn btn--primary" data-i18n="estimate.cta">Send request</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section section--alt">
+        <div class="container contact-grid reveal">
+          <div>
+            <h2 class="section__title" data-i18n="contact.title">Contacts</h2>
+            <p data-i18n-html="contact.subtitle">Email <a href="mailto:info@varatek.pro">info@varatek.pro</a> or fill the form — we reply during business hours.</p>
+            <ul class="contact-list">
+              <li><strong data-i18n="contact.phoneLabel">Phone:</strong> <a href="tel:+79990000000" data-i18n="contact.phone">+7 (999) 000‑00‑00</a></li>
+              <li><strong data-i18n="contact.addressLabel">Address:</strong> <span data-i18n="contact.address">Moscow, Example BC, Architects St., 1</span></li>
+              <li><strong data-i18n="contact.hoursLabel">Hours:</strong> <span data-i18n="contact.hours">Mon–Sat, 10:00–19:00</span></li>
+            </ul>
+          </div>
+          <form class="contact-form" method="POST" data-simulate>
+            <label>
+              <span data-i18n="form.nameLabel">Name</span>
+              <input type="text" name="name" placeholder="Your name" data-i18n-placeholder="form.namePlaceholder" required />
+            </label>
+            <label>
+              <span data-i18n="form.phoneLabel">Phone</span>
+              <input type="tel" name="phone" placeholder="+7 ___ ___‑__‑__" data-i18n-placeholder="form.phonePlaceholder" required />
+            </label>
+            <label>
+              <span data-i18n="form.messageLabel">Message</span>
+              <textarea name="message" rows="4" placeholder="Briefly describe your task" data-i18n-placeholder="form.messagePlaceholder"></textarea>
+            </label>
+            <button type="submit" class="btn btn--primary" data-i18n="form.submit">Send</button>
+            <p class="form-note" data-i18n-html="form.note">Prefer a call? Phone: <a href="tel:+79990000000">+7 (999) 000‑00‑00</a></p>
+            <p class="form-status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <a class="brand brand--footer" href="#home">
+          <img src="./assets/logo.svg" alt="VaraTek logo" class="brand-logo" />
+          <span class="brand-text">VaraTek</span>
+        </a>
+        <nav class="footer-nav">
+          <a href="#services" data-i18n="nav.services">Services</a>
+          <a href="#projects" data-i18n="nav.projects">Projects</a>
+          <a href="#process" data-i18n="nav.process">Process</a>
+          <a href="#about" data-i18n="nav.about">About</a>
+          <a href="#contact" data-i18n="nav.contact">Contact</a>
+        </nav>
+        <p class="copyright">© <span id="year"></span> VaraTek. <span data-i18n="footer.rights">All rights reserved.</span></p>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+  </html>
+
+
